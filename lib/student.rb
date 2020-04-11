@@ -19,7 +19,7 @@ class Student
       CREATE TABLE IF NOT EXISTS students (
        id INTEGER PRIMARY KEY,
         name TEXT,
-       grade Text
+       grade TEXT
         )
         SQL
     DB[:conn].execute(sql)
